@@ -3,15 +3,17 @@ import NetflixSeries from './components/NetflixSeries'
 
 const App = () => {
 
+  
+
   return (
-    <div>
-      <h1>This is react js first tutorial here </h1>
+    <React.Fragment>
+      <h1>This is our react app</h1>
       <NetflixSeries />
       <NetflixSeries />
       <NetflixSeries />
       <NetflixSeries />
       <NetflixSeries />
-    </div>
+    </React.Fragment>
   )
 }
 
