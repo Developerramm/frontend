@@ -1,9 +1,10 @@
-import React from 'react'
+import React, { version } from 'react'
 
 const App = () => {
   return (
     <div>
-      <h1>Ram kumar maniyari</h1>
+        <h1>This is react js tutorial here </h1>
+        <h3>React version is {version} </h3>
     </div>
   )
 }
