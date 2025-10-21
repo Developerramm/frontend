@@ -1,14 +1,11 @@
-import Demo, { Footer, Header, Subs, Sum } from "./components/Demo";
+import Card from "./components/Card";
 
 const App = () => {
+
   return (
     <>
       <h3>This is react app here </h3>
-      <Header />
-      <Demo />
-      <Sum />
-      <Subs />
-      <Footer />
+      <Card />
     </>
   );
 };
