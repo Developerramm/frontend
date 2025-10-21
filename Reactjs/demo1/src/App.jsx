@@ -1,14 +1,12 @@
-import React from 'react'
+
+import Conditional from './components/Conditional'
 import NetFlixSeries from './components/NetFlixSeries'
 
 const App = () => {
   return (
     <>
-      <NetFlixSeries />
-      <NetFlixSeries />
-      <NetFlixSeries />
-      <NetFlixSeries />
-      <NetFlixSeries />
+     <Conditional />
+     <NetFlixSeries />
     </>
   )
 }

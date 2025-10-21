@@ -12,6 +12,8 @@ const NetFlixSeries = () => {
         doloremque porro, maxime, tenetur voluptatem voluptate dolorum quod
         aspernatur perferendis`;
 
+  let age = 30;
+
   return (
     <div>
       <h3>netflix series card here </h3>
@@ -26,6 +28,7 @@ const NetFlixSeries = () => {
       <p>
         Summery : {summery}
       </p>
+      <button> {age >= 18 ? "Watch Now" : "Not Available"} </button>
     </div>
   );
 };
