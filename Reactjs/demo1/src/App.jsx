@@ -1,14 +1,16 @@
-
-import Conditional from './components/Conditional'
-import NetFlixSeries from './components/NetFlixSeries'
+import Demo, { Footer, Header, Subs, Sum } from "./components/Demo";
 
 const App = () => {
   return (
     <>
-     <Conditional />
-     <NetFlixSeries />
+      <h3>This is react app here </h3>
+      <Header />
+      <Demo />
+      <Sum />
+      <Subs />
+      <Footer />
     </>
-  )
-}
+  );
+};
 
-export default App
+export default App;
