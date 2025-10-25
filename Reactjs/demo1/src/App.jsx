@@ -4,7 +4,11 @@ import ProfileCard from "./components/ProfileCard";
 const App = () => {
 
   return (
-    <div className="container">
+    <div>
+
+    <Card />
+
+
       <ProfileCard
 
         name = "ram kumar"
