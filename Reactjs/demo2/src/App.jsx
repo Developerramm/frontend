@@ -1,12 +1,12 @@
 
-import React from 'react'
-import Inlinecss from './components/Inlinecss'
+
+import CssModules from './components/CssModules'
 
 const App = () => {
   return (
     <div>
       This is react app here
-      <Inlinecss />
+      <CssModules />
     </div>
   )
 }
