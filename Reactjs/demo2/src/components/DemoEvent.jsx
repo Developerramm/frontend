@@ -1,4 +1,5 @@
 import React from "react";
+import Demo from "./Demo";
 
 const DemoEvent = () => {
   let handleButtonClick = (event) => {
@@ -6,6 +7,11 @@ const DemoEvent = () => {
     console.log(event);
     console.log(event.target);
   };
+
+  let HandleWelcomeUser = (event)=>{
+    console.log(event)
+    console.log("Event value is " + event)
+  }
 
   return (
     <div>
@@ -22,6 +28,8 @@ const DemoEvent = () => {
       >
         click me 3
       </button>
+
+      <Demo onClick={()=>HandleWelcomeUser("Rmkumar")} />
     </div>
   );
 };
