@@ -1,12 +1,10 @@
-import React from 'react'
-import JsxDemo from './components/JsxDemo'
-import Bye from './components/Bye'
+import Test from "./components/Test"
 
 const App = () => {
+ 
   return (
     <div className='container'>
-    <JsxDemo />
-    <Bye />
+      <Test />
     </div>
   )
 }
