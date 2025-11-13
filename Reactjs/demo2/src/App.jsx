@@ -1,14 +1,13 @@
-import React from 'react'
-import Practice1 from './practice/Practice1'
+
+
+import CssModules from './components/CssModules'
+import DemoEvent from './components/DemoEvent'
 
 const App = () => {
-
- 
   return (
     <div>
-      <h1>This is react app here </h1>
-      <Practice1 />
-
+      This is react app here
+      <DemoEvent />
     </div>
   )
 }
