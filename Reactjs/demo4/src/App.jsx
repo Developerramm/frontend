@@ -1,6 +1,7 @@
 import PropsDemo from "./components/PropsDemo";
 
 const App = () => {
+  let hobbies = ["Reading","Coding","Traveling"];
   return (
     <div className="container">
       <div className="row">
@@ -8,6 +9,7 @@ const App = () => {
         <PropsDemo name = "Maniyari" city = "Noida" age = "30" />
         <PropsDemo name = "Maniyari" city = "Pune" age = "33" />
         <PropsDemo name = "Maniyari" city = "Kolkata" age = "24" />
+        <PropsDemo hobbies = {hobbies} />
       </div>
     </div>
   );
