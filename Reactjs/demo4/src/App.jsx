@@ -1,14 +1,11 @@
-import React from 'react'
-import Hello from './components/Hello'
-import Bye from './components/Bye'
+import ConditionalRen from "./components/ConditionalRen";
 
 const App = () => {
   return (
-    <div className='container'>
-      <Hello />
-      <Bye />
+    <div className="container">
+      <ConditionalRen />
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;
