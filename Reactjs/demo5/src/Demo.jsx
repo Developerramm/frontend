@@ -5,8 +5,9 @@ const Demo = () => {
   let [name,setName] = useState("");
 
   useEffect(() => {
+    document.title = `count : ${count}`;
     console.log("component re-rendered!");
-  },[]);
+  },[name,count]);
 
   return (
     <div className="row">
