@@ -3,6 +3,7 @@ import Demo from "./Demo";
 import Navbar from "./Navbar";
 import Timer from "./Timer";
 import WindowSizeTracker from "./WindowSizeTracker";
+import Users from "./Users";
 
 const App = () => {
   return (
@@ -11,9 +12,11 @@ const App = () => {
       <div className="container">
         <Demo />
         <hr />
-        <Timer />
+        {/* <Timer /> */}
         <hr />
         <WindowSizeTracker />
+        <hr />
+        <Users />
       </div>
     </div>
   );
