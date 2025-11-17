@@ -1,13 +1,10 @@
-import React from 'react'
-import Timer from './Timer'
-import AutoSaveForm from './AutoSaveForm'
+import Parent from "./Parent"
 
 const App = () => {
   return (
     <div className='container'>
-      <h3>UseEffectEvent hook in react js </h3>
-      {/* <Timer /> */}
-      <AutoSaveForm />
+      <h3>Props drilling </h3>
+      <Parent />
     </div>
   )
 }
