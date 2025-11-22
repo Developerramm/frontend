@@ -1,14 +1,12 @@
+import Test from "./components/uselayout/Test"
 
-import Counter from "./components/usecallback/Counter"
-import Parent from "./components/usecallback/Parent"
 const App = () => {
   
   return (
     <div className='container'>
       <h3>React app </h3>
-      <h2>Use Call backhook</h2>
-      {/* <Counter /> */}
-      <Parent />
+      <h2>Use LayoutEffect hook in react js </h2>
+      <Test />
     </div>
   )
 }
