@@ -1,14 +1,13 @@
-import Test from "./components/uselayout/Test"
+import Example1 from "./components/uselayout/Example1";
 
 const App = () => {
-  
   return (
-    <div className='container'>
+    <div className="container">
       <h3>React app </h3>
       <h2>Use LayoutEffect hook in react js </h2>
-      <Test />
+     <Example1 />
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;
