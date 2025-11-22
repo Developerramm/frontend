@@ -1,13 +1,14 @@
-// import WithoutUseMemo from "./WithoutUseMemo"
-import Parent from "./Parent"
-import WithUseMomo from "./WithUseMomo"
 
+import Counter from "./components/usecallback/Counter"
+import Parent from "./components/usecallback/Parent"
 const App = () => {
+  
   return (
     <div className='container'>
       <h3>React app </h3>
-     {/* <WithUseMomo /> */}
-     <Parent />
+      <h2>Use Call backhook</h2>
+      {/* <Counter /> */}
+      <Parent />
     </div>
   )
 }
